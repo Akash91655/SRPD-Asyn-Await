@@ -1,4 +1,4 @@
-While learning Registration Page Dynamic some of use in Javascript &amp; there workings.
+#While learning Registration Page Dynamic some of use in Javascript &amp; there workings.
 
 console.log('person1: shows ticket');
 console.log('person2: shows ticket');
@@ -10,18 +10,15 @@ const perMovie = async () => {
     });
     const getPopcorn = new Promise((resolve, reject) =>resolve(`popcorn`));
     const addButter = new Promise((resolve, reject) =>resolve(`butter`));
-
-  let ticket = await promiseWifeBringingTicks;    
+let ticket = await promiseWifeBringingTicks;    
     console.log(`wife: i have the ${ticket}`);
     console.log('husband: we should go in');
     console.log('wife: no i am hungry');
-
-  let popcorn = await getPopcorn;
+let popcorn = await getPopcorn;
     console.log(`husband: i got some ${popcorn}`);
     console.log('husband: we should go in');
     console.log('wife: I need some butter on my popcorn');
-
-  let butter = await addButter;
+let butter = await addButter;
     console.log(`husband: i got some ${butter} on popcorn`);
     console.log(`husband: anything else love?`);
     console.log(`wife: lets go in we are getting late`);
