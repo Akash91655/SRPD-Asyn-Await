@@ -29,7 +29,6 @@ const perMovie = async () => {
     return ticket;
 }
 perMovie().then((m) => console.log(`person3: shows ${m}`));
-
 console.log('person4: shows ticket');
 console.log('person5: shows ticket');
 0 comments on co
